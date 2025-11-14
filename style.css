@@ -1,0 +1,12 @@
+.d-flex {
+    display: flex;
+}
+
+.container {
+    margin: auto;
+    max-width: 1000px;
+}
+
+.j-content {
+    justify-content: space-between;
+}
