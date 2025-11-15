@@ -1,3 +1,7 @@
+body {
+    margin: 0px;
+}
+
 .d-flex {
     display: flex;
 }
@@ -9,4 +13,68 @@
 
 .j-content {
     justify-content: space-between;
+}
+
+.navlist {
+    justify-content: space-between;
+    color: rgb(255, 237, 237);
+    text-decoration-line: none;
+}
+
+.background {
+    background-color: rgb(22, 20, 20);
+}
+
+.font{
+    font-family: "Epilogue", sans-serif;
+    color: rgb(255, 237, 237);
+}
+
+.padding {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.content-align {
+    align-content: center;
+    
+}
+
+#Devis {
+    padding: 15px;
+    background-color: rgb(255, 237, 237);
+    text-decoration: none;
+    color: rgb(22, 20, 20);
+    font-size: 17px;
+}
+
+#paraheader {
+    font-size: 17.33327865600586px;
+}
+
+#meow {
+    font-size: 60px;
+}
+
+#titre{
+    font-size: 20px;
+    font-style: bold;
+}
+
+#para{
+    font-size: 14px;
+}
+
+.bonjourjessica{
+    padding: 15px;
+    font-size: 17px;
+}
+
+
+.serv{
+    flex-direction: row;
+}
+
+.text-align {
+    text-align: center;
 }
