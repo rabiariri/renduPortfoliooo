@@ -25,9 +25,13 @@ body {
     background-color: rgb(22, 20, 20);
 }
 
-.font{
+.font {
     font-family: "Epilogue", sans-serif;
     color: rgb(255, 237, 237);
+}
+
+.fontd {
+    font-family: "Epilogue", sans-serif;
 }
 
 .padding {
@@ -37,7 +41,7 @@ body {
 
 .content-align {
     align-content: center;
-    
+
 }
 
 #Devis {
@@ -56,25 +60,116 @@ body {
     font-size: 60px;
 }
 
-#titre{
+#titre {
     font-size: 20px;
     font-style: bold;
 }
 
-#para{
+#para {
     font-size: 14px;
+    margin-bottom: 30px;
 }
 
-.bonjourjessica{
+.bonjourjessica {
     padding: 15px;
     font-size: 17px;
 }
 
 
-.serv{
+.serv {
     flex-direction: row;
 }
 
 .text-align {
     text-align: center;
+}
+
+.logos {
+    justify-content: space-between;
+    gap: 70px;
+    align-items: center;
+    padding: 40px;
+
+}
+
+
+.headerbtn {
+    margin-top: 10px;
+}
+
+.wrap {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.item {
+    width: 30%;
+    margin-bottom: 40px;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+}
+
+.item h3 {
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.item p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.tmw {
+    justify-content: space-between;
+    margin-top: 40px;
+    gap: 100px;
+}
+
+.tc {
+    width: 30%;
+    background-color: rgb(245, 245, 245);
+    padding: 25px;
+    font-size: 14px;
+}
+
+.tc p {
+    line-height: 22px;
+}
+
+.profil {
+    margin-top: 20px;
+    align-items: center;
+    gap: 15px;
+}
+
+.profil img {
+    width: 45px;
+    height: 45px;
+}
+
+.identite h3 {
+    margin: 5px 0 0;
+    font-size: 15px;
+}
+
+.identite p {
+    margin: 3px 0 0;
+    font-size: 13px;
+}
+
+.width {
+    width: 350px;
+}
+
+.f-direction {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.padding-footer {
+    margin-bottom: 20px;
 }
